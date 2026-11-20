@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  :root {
+    --paper: #f6f4ee; --ink: #17160f; --muted: #5d5a4f; --line: #dad6ca; --line-strong: #c3beb0;
+    --accent: #0f6e5d; --accent-soft: #dbeae4; --warn: #a4561a; --node: #ffffff;
+  }
+  body.dark {
+    --paper: #12140f; --ink: #ecebe4; --muted: #a29f93; --line: #2a2c25; --line-strong: #3d4036;
+    --accent: #4fbfa5; --accent-soft: #173229; --warn: #d9925a; --node: #1b1e18;
+  }
+  html, body { margin: 0; width: 2048px; height: 576px; overflow: hidden; }
+  body { background: var(--paper); color: var(--ink); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; position: relative; }
+  .grid { position: absolute; inset: 0; }
+  .text { position: absolute; left: 120px; top: 108px; width: 960px; }
+  .eyebrow { font-size: 26px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
+  h1 { font-family: "New York", "Iowan Old Style", Georgia, serif; font-weight: 500; font-size: 112px; line-height: 1; margin: 26px 0 0; letter-spacing: -0.02em; }
+  .tag { font-size: 34px; line-height: 1.35; color: var(--muted); margin-top: 30px; max-width: 900px; }
+  .chips { margin-top: 38px; display: flex; gap: 14px; flex-wrap: wrap; }
+  .chip { font-size: 22px; padding: 9px 18px; border: 1.5px solid var(--line-strong); border-radius: 999px; color: var(--ink); }
+  svg text { font-family: "SF Mono", Menlo, monospace; }
+</style>
+</head>
+<body>
+<svg class="grid" width="2048" height="576" viewBox="0 0 2048 576" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="g" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="var(--line)" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" x2="1">
+      <stop offset="0" stop-color="var(--paper)" stop-opacity="1"/>
+      <stop offset="0.5" stop-color="var(--paper)" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="var(--paper)" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="2048" height="576" fill="url(#g)"/>
+  <rect width="1300" height="576" fill="url(#fade)"/>
+
+  <!-- floorplate: corridor and units -->
+  <g fill="var(--node)" stroke="var(--line-strong)" stroke-width="2">
+    <rect x="1248" y="96" width="112" height="128" rx="4"/>
+    <rect x="1360" y="96" width="112" height="128" rx="4"/>
+    <rect x="1472" y="96" width="112" height="128" rx="4"/>
+    <rect x="1584" y="96" width="112" height="128" rx="4"/>
+    <rect x="1248" y="320" width="112" height="128" rx="4"/>
+    <rect x="1360" y="320" width="112" height="128" rx="4"/>
+    <rect x="1472" y="320" width="112" height="128" rx="4"/>
+    <rect x="1584" y="320" width="112" height="128" rx="4"/>
+  </g>
+  <rect x="1500" y="124" width="56" height="72" rx="3" fill="var(--accent-soft)"/>
+  <rect x="1388" y="348" width="56" height="72" rx="3" fill="var(--accent-soft)"/>
+  <g font-size="18" fill="var(--muted)">
+    <text x="1280" y="166">101</text><text x="1392" y="166">102</text><text x="1504" y="166" fill="var(--accent)">103</text><text x="1616" y="166">104</text>
+    <text x="1280" y="390">105</text><text x="1392" y="390" fill="var(--accent)">106</text><text x="1504" y="390">107</text><text x="1616" y="390">108</text>
+  </g>
+  <text x="1578" y="302" font-size="16" fill="var(--muted)" letter-spacing="4">HALLWAY</text>
+
+  <!-- wayfinding route -->
+  <path d="M1200 272 H1416 V320 M1416 272 H1528 V224" fill="none" stroke="var(--accent)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 12"/>
+  <circle cx="1200" cy="272" r="10" fill="var(--accent)"/>
+  <circle cx="1416" cy="320" r="8" fill="var(--paper)" stroke="var(--accent)" stroke-width="4"/>
+  <circle cx="1528" cy="224" r="8" fill="var(--paper)" stroke="var(--accent)" stroke-width="4"/>
+
+  <!-- workflow branch -->
+  <g stroke="var(--line-strong)" stroke-width="2.5" fill="none">
+    <path d="M1696 272 H1752"/>
+    <path d="M1840 272 C1872 272 1872 168 1904 168"/>
+    <path d="M1840 272 C1872 272 1872 376 1904 376"/>
+  </g>
+  <g font-size="17">
+    <rect x="1752" y="246" width="88" height="52" rx="10" fill="var(--node)" stroke="var(--ink)" stroke-width="2"/>
+    <text x="1771" y="278" fill="var(--ink)">if ?</text>
+    <rect x="1904" y="142" width="112" height="52" rx="10" fill="var(--accent)" stroke="var(--accent)"/>
+    <text x="1921" y="174" fill="var(--paper)">HTTP</text>
+    <rect x="1904" y="350" width="112" height="52" rx="10" fill="var(--node)" stroke="var(--line-strong)" stroke-width="2"/>
+    <text x="1921" y="382" fill="var(--muted)">notify</text>
+    <text x="1860" y="210" fill="var(--accent)">yes</text>
+    <text x="1860" y="346" fill="var(--muted)">no</text>
+  </g>
+  <text x="1252" y="508" font-size="17" fill="var(--muted)">run #4821 · path: yes → ok · route 3 stops</text>
+</svg>
+
+<div class="text">
+  <div class="eyebrow">Lead Software Engineer · Lahore, Pakistan</div>
+  <h1>Zubair Zulifqar</h1>
+  <div class="tag">I build complex software into systems people can actually use: SaaS products, workflow engines, interactive maps and AI features, from architecture to production.</div>
+  <div class="chips">
+    <span class="chip">React · TypeScript</span><span class="chip">Ruby on Rails</span><span class="chip">Python</span><span class="chip">AI systems</span>
+  </div>
+</div>
+<script>if (location.hash === '#dark') document.body.classList.add('dark');</script>
+</body>
+</html>

@@ -1,14 +1,13 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset=".github/assets/header-dark.png">
-  <img src=".github/assets/header-light.png" alt="Zubair Zulifqar, AI SaaS Developer. A voice agent pipeline: caller audio goes through speech-to-text to an LLM agent that calls RAG, appointment booking and CRM tools, then answers by text-to-speech." width="100%">
+  <img src=".github/assets/header-light.png" alt="Zubair Zulifqar, Full-Stack Developer for AI solutions. A Next.js app calls a Node API backed by Postgres, which hands off to an AI agent connected to RAG, a HubSpot CRM and Stripe." width="100%">
 </picture>
 
-## AI SaaS Developer &nbsp;|&nbsp; Voice AI Agents &nbsp;|&nbsp; MVPs with Next.js, Python & RAG
+## Full-Stack Developer &nbsp;|&nbsp; React, Next.js, Node.js + AI Solutions
 
-I turn an AI product idea into a working SaaS: the voice or chat agent, the retrieval behind it, and the
-real application around it, with sign-in, teams, billing, an admin side, tests and deployment. Five years
-of full-stack engineering, currently **Lead Software Engineer at Pynwheel**, previously the technical lead
-of a workflow engine that runs millions of executions a day.
+I own the whole build, not a slice of it. Founders and funded teams bring me in to take AI-native products
+from concept to production: React and Next.js front ends, scalable Node.js back ends, and the AI layer on
+top (agents, RAG systems and automation workflows wired into real business logic, not demos).
 
 <p>
   <a href="https://www.upwork.com/freelancers/~01894c735c70746190"><img alt="Hire me on Upwork" src="https://img.shields.io/badge/Hire_me_on-Upwork-14a800?style=for-the-badge&logo=upwork&logoColor=white"/></a>
@@ -16,84 +15,85 @@ of a workflow engine that runs millions of executions a day.
   <a href="https://www.linkedin.com/in/zubair-zulfiqar-17413226b/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 </p>
 
-### What I build for clients
+### What I build
 
-| Service | What it includes |
-|---|---|
-| **Voice AI agents** | Receptionists and phone-style assistants that listen, understand and act: speech-to-text, an LLM agent with tool calls (book, look up, update), and natural text-to-speech. Hosted APIs or self-hosted open models. |
-| **AI SaaS MVPs** | From idea to a product people can sign up for: Next.js front end, Python or Node API, PostgreSQL, multi-tenant accounts, roles, Stripe billing and an admin dashboard. |
-| **RAG chatbots and knowledge assistants** | Answers grounded in your documents, websites or database, with citations, a confidence gate for questions they can't answer, and an embeddable widget. |
-| **AI features in an existing product** | Structured LLM outputs, AI agents and automations added to a running app, with human approval where it matters and logs you can audit. |
+- **AI-native products, concept to production**, for founders and funded teams
+- **Next.js and React web apps** on scalable **Node.js** back ends
+- **AI agents, RAG pipelines and conversational AI** for copilots, chatbots and internal tools
+- **CRM and workflow automation** with Zapier, Make and n8n, plus **Chrome extensions**
+- **Multi-tenant SaaS platforms** and internal tools
+- **API integrations and webhooks**: Stripe, HubSpot and other third-party services
+- **React Native and Flutter** mobile apps for iOS and Android
+- **AI-generated prototypes turned into clean, production-ready apps**
 
-### Featured projects
+### What I help fix
 
-**Voice AI**
+Messy AI-generated code that breaks with real users &nbsp;·&nbsp; weak architecture slowing a team down &nbsp;·&nbsp;
+performance problems hurting conversion &nbsp;·&nbsp; broken integrations between front end, back end and third
+parties &nbsp;·&nbsp; scalability problems before they become a crisis &nbsp;·&nbsp; unfinished apps that need a senior
+developer to get them over the line.
 
-- **[DentalVoice AI](https://github.com/Qubit-Labz/Dental-Receptionist-Voice-AI)** &nbsp;`Python` `FastAPI` `React` &nbsp;·&nbsp; *Qubit Labz team project*<br>
-  A voice receptionist for a dental clinic. Faster-Whisper transcribes the caller, an LLM agent with tool calls resolves dates and books the appointment, and Kokoro answers in a natural voice. The React front end has a live waveform, sign-in and an appointments view. It can run entirely on self-hosted open models.
-- **[Waivs.ai](https://github.com/Zubair-Zulifqar/Waivs-AI)** &nbsp;`Next.js` `Supabase` `Vertex AI`<br>
-  Voice to clinical notes for surgical teams. Browser recording with crash recovery, Google Speech-to-Text with speaker diarization, then a source-cited draft note from Gemini that a clinician must approve. Version history, word-level diffs and PDF export.
+### Client outcomes
 
-**RAG and AI agents**
+| Build | What I did | Result |
+|---|---|---|
+| **Tuck Advisors** (M&A advisory) | 300+ CRM automations, AI research on AWS Lambda, a Chrome extension across 40+ releases | One client sourced 1,500+ acquisition targets; the firm closed 100% of engagements in 2025 |
+| **Archyr** (venture deal flow) | Front end for a deal operating system: 0–100 scoring engine, Gmail and Affinity sync, AI briefs | A $600M+ AUM VC firm sources, scores and tracks deals in one workspace instead of four tools |
+| **REACH Pathways** (AI career platform) | Front end with a gamified skills map and an AI-assisted resume builder | First-generation students reach scholarships and jobs; the platform won the SXSW Pitch |
+| **Athena V2** (school transportation) | Multi-tenant, event-driven routing platform with live GPS tracking | District-specific rules replace rigid legacy configuration for a company serving 500+ districts |
+| **StoryHEAT** (campaign research) | Front end, authentication and a conversational AI feature | Campaign teams test messaging before production; campaigns reached 100M+ impressions |
+| **Waivs AI** (clinical documentation) | Real-time transcription on Google Vertex AI and Supabase | Structured clinical notes; the platform reports 42% fewer readmissions and 349% ROI |
 
-- **[Othego](https://github.com/Zubair-Zulifqar/Othego)** &nbsp;`TypeScript` `RAG` `Stripe`<br>
-  An AI support chatbot SaaS. Businesses connect websites, sitemaps and PDFs; Othego crawls, chunks and indexes them, then answers visitors through a 5 kB embeddable widget. Hybrid BM25 and vector search, reranking, cited streaming answers, lead capture, analytics and four Stripe plans.
-- **[Tuck Advisors Platform](https://github.com/Zubair-Zulifqar/Tuck-Advisors-Platform)** &nbsp;`TypeScript` `Python`<br>
-  An AI research and CRM platform for an M&A advisory: an AI research engine, explainable fit scoring, CRM automation with approval gates, and a Chrome extension that works inside LinkedIn and Gmail. Every AI claim is labelled *sourced*, *assessment* or *unknown*.
-- **[SmartPrep](https://github.com/Qubit-Labz/smartprep-ai)** &nbsp;`FastAPI` `Mistral` `WebRTC` &nbsp;·&nbsp; *Qubit Labz team project*<br>
-  A mock-interview simulator. The LLM generates questions from the role a user picks, scores text and video answers, and streams feedback.
+I've also led a launch that went on to close a **$1.99M investment round**, and taken a product from a
+**10% to an 80% conversion rate** through performance and UX work alone.
 
-**AI SaaS MVPs**
+### Code you can read
 
-- **[TestFiesta](https://github.com/Zubair-Zulifqar/TestFiesta)** &nbsp;`Vue` `Express` `PostgreSQL`<br>
-  Test management SaaS with an AI copilot that writes test cases from requirements. Each customer gets its own database, with relationship-based permissions, Jira and GitHub sync, and a CLI for CI results.
+Full-stack builds with READMEs, tests and architecture notes. They run on synthetic data with mocked
+integrations, so you can clone one and run it without any accounts or API keys.
+
+- **[Tuck Advisors Platform](https://github.com/Zubair-Zulifqar/Tuck-Advisors-Platform)** &nbsp;`TypeScript` `Python` `Chrome extension`<br>
+  Deal CRM, AI research engine, explainable fit scoring, CRM automation with approval gates, and a Manifest V3 side panel for LinkedIn and Gmail.
 - **[StoryHEAT](https://github.com/Zubair-Zulifqar/StoryHEAT)** &nbsp;`Next.js` `Python`<br>
-  Campaign message testing: AI drafts narratives from supplied facts, real audiences rate them in surveys, and a heatmap shows what landed. Includes a content assistant that drafts social posts from approved material.
+  AI narrative generation from supplied facts, audience surveys, a results heatmap, and a content assistant that only drafts from approved material.
+- **[Waivs AI](https://github.com/Zubair-Zulifqar/Waivs-AI)** &nbsp;`Next.js` `Supabase` `Vertex AI`<br>
+  Voice to source-cited clinical notes, with mandatory clinician approval enforced in the database, version history and PDF export.
+- **[Othego](https://github.com/Zubair-Zulifqar/Othego)** &nbsp;`TypeScript` `RAG` `Stripe`<br>
+  AI support chatbot SaaS: crawling and indexing, hybrid search with reranking, cited streaming answers, a 5 kB embeddable widget, unanswered-question logging and four Stripe tiers.
+- **[TestFiesta](https://github.com/Zubair-Zulifqar/TestFiesta)** &nbsp;`Vue` `Node.js` `Express` `PostgreSQL`<br>
+  Multi-tenant SaaS with a database per customer, relationship-based permissions, an AI test-design copilot, and Jira and GitHub integrations.
 - **[Authentic Spark](https://github.com/Zubair-Zulifqar/Authentic-Spark)** &nbsp;`Next.js` `Python` `GCP`<br>
-  An all-in-one operations platform for agencies: email planning, list cleaning, SMS compliance, ad review, QuickBooks invoicing and six AI agents with approval steps, deployed on Cloud Run.
+  Agency operations platform: email planning, list cleaning, SMS compliance, QuickBooks invoicing, Zapier-compatible webhooks and six AI agents with approval steps.
+- **[DentalVoice AI](https://github.com/Qubit-Labz/Dental-Receptionist-Voice-AI)** &nbsp;`Python` `FastAPI` `React` &nbsp;·&nbsp; *Qubit Labz team project*<br>
+  A voice AI receptionist: Faster-Whisper speech-to-text, a tool-calling LLM agent that books appointments, and Kokoro text-to-speech.
 
-Each repo has a README covering setup, architecture and status, plus automated tests, and runs locally in a mock mode with no paid API keys needed.
+### Core stack
 
-### What you get on a project
+| Area | Tools |
+|---|---|
+| **Frontend** | React, Next.js, Redux, TypeScript, JavaScript, Tailwind CSS, MUI, GSAP |
+| **Backend** | Node.js, Express, Next.js APIs, Python, GraphQL, REST, JWT, OAuth |
+| **Mobile** | React Native, Flutter |
+| **Data** | PostgreSQL, MySQL, MongoDB, DynamoDB, Firebase, Supabase |
+| **Cloud / DevOps** | AWS, Lambda, Vercel, Docker, Kubernetes, GitHub Actions, Serverless, Terraform |
+| **AI** | OpenAI, Google Vertex AI, Gemini, LangChain, RAG, embeddings, AI agents, voice agents, Claude Code, MCP |
+| **Automation** | Zapier, Make, n8n, CRM automation, Chrome extensions |
+| **Integrations** | Stripe, PayPal, Auth0, HubSpot, SendGrid, Twilio, WebSockets, webhooks |
 
-- A working product early, then steady progress you can click through, not just status updates.
-- Production basics from the start: authentication, roles, tenant isolation, billing, error handling and logging.
-- AI that is safe to put in front of customers: cited answers, structured outputs, human approval for anything that goes out, and no invented numbers.
-- Clean handover: documented setup, environment templates, Docker, and tests you can run.
+### How I work
 
-### Production experience
+Scope, prototype, production. Hourly or fixed scope, embedded in your team or running the build end to end.
+Clean, typed code, accessible UI, and measurable gains in speed, SEO and conversion. Frequent updates and
+clear communication.
 
-- **Lead Software Engineer, Pynwheel** (2026 to now): property-tech SaaS with interactive maps, shortest-path wayfinding and a self-guided tour mobile app on one React/TypeScript codebase.
-- **Senior Software Engineer, EZO** (2023 to 2026): led a workflow engine running millions of executions a day across three products, cut a 12–15 hour device sync to under an hour, and built AI automation that turns production errors into proposed pull requests.
-- AWS Certified Cloud Practitioner &nbsp;·&nbsp; Silver medal, ICPC Asia Topi Regional &nbsp;·&nbsp; BS Software Engineering, PUCIT
+Day job: **Lead Software Engineer at Pynwheel** (property-tech SaaS: React/TypeScript over Rails, interactive
+maps and a mobile tour app). Before that, **EZO**, where I led a workflow engine running millions of
+executions a day.
 
-### Stack
+### Tell me what you're building
 
-<p>
-  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-17160f?style=flat-square&logo=nextdotjs&logoColor=white"/>
-  <img alt="React" src="https://img.shields.io/badge/React-17160f?style=flat-square&logo=react&logoColor=white"/>
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-17160f?style=flat-square&logo=typescript&logoColor=white"/>
-  <img alt="Python" src="https://img.shields.io/badge/Python-17160f?style=flat-square&logo=python&logoColor=white"/>
-  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-17160f?style=flat-square&logo=fastapi&logoColor=white"/>
-  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-17160f?style=flat-square&logo=nodedotjs&logoColor=white"/>
-  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-17160f?style=flat-square&logo=postgresql&logoColor=white"/>
-  <img alt="Supabase" src="https://img.shields.io/badge/Supabase-17160f?style=flat-square&logo=supabase&logoColor=white"/>
-  <img alt="Stripe" src="https://img.shields.io/badge/Stripe-17160f?style=flat-square&logo=stripe&logoColor=white"/>
-  <img alt="OpenAI" src="https://img.shields.io/badge/OpenAI-17160f?style=flat-square&logo=openai&logoColor=white"/>
-  <img alt="Claude" src="https://img.shields.io/badge/Claude-17160f?style=flat-square&logo=anthropic&logoColor=white"/>
-  <img alt="Gemini" src="https://img.shields.io/badge/Gemini-17160f?style=flat-square&logo=googlegemini&logoColor=white"/>
-  <img alt="LangChain" src="https://img.shields.io/badge/LangChain-17160f?style=flat-square&logo=langchain&logoColor=white"/>
-  <img alt="Whisper" src="https://img.shields.io/badge/Whisper_STT-17160f?style=flat-square"/>
-  <img alt="Docker" src="https://img.shields.io/badge/Docker-17160f?style=flat-square&logo=docker&logoColor=white"/>
-  <img alt="Google Cloud" src="https://img.shields.io/badge/Google_Cloud-17160f?style=flat-square&logo=googlecloud&logoColor=white"/>
-  <img alt="AWS" src="https://img.shields.io/badge/AWS-17160f?style=flat-square"/>
-</p>
-
-### Let's build yours
-
-Have an AI product idea or a voice agent to ship? Send me the brief on
-**[Upwork](https://www.upwork.com/freelancers/~01894c735c70746190)** and I'll reply with how I'd build it
-and a first milestone.
+Tell me what you're building or what's broken, and I'll tell you exactly how I'd approach it:
+**[message me on Upwork](https://www.upwork.com/freelancers/~01894c735c70746190)**.
 
 [Upwork](https://www.upwork.com/freelancers/~01894c735c70746190) &nbsp;·&nbsp; [Portfolio](https://zubair-zulfiqar.vercel.app) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/zubair-zulfiqar-17413226b/) &nbsp;·&nbsp; [Resume (PDF)](https://zubair-zulfiqar.vercel.app/Zubair_Zulfiqar_Resume.pdf)
 

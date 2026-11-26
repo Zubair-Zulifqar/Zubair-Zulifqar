@@ -39,53 +39,54 @@
   <rect width="2048" height="576" fill="url(#g)"/>
   <rect width="1320" height="576" fill="url(#fade)"/>
 
-  <!-- voice in: waveform -->
-  <g fill="var(--accent)">
-    <rect x="1240" y="262" width="8" height="28" rx="4"/>
-    <rect x="1256" y="244" width="8" height="64" rx="4"/>
-    <rect x="1272" y="226" width="8" height="100" rx="4"/>
-    <rect x="1288" y="250" width="8" height="52" rx="4"/>
-    <rect x="1304" y="236" width="8" height="80" rx="4"/>
-    <rect x="1320" y="256" width="8" height="40" rx="4"/>
+  <!-- browser: Next.js app -->
+  <g>
+    <rect x="1216" y="214" width="144" height="124" rx="10" fill="var(--node)" stroke="var(--ink)" stroke-width="2"/>
+    <path d="M1216 238 H1360" stroke="var(--line-strong)" stroke-width="2"/>
+    <circle cx="1230" cy="226" r="4" fill="var(--line-strong)"/><circle cx="1244" cy="226" r="4" fill="var(--line-strong)"/><circle cx="1258" cy="226" r="4" fill="var(--line-strong)"/>
+    <rect x="1230" y="252" width="72" height="10" rx="3" fill="var(--accent)"/>
+    <rect x="1230" y="272" width="116" height="8" rx="3" fill="var(--line-strong)"/>
+    <rect x="1230" y="288" width="96" height="8" rx="3" fill="var(--line-strong)"/>
+    <rect x="1230" y="306" width="52" height="20" rx="5" fill="var(--accent-soft)" stroke="var(--accent)" stroke-width="1.5"/>
   </g>
-  <text x="1236" y="360" font-size="17" fill="var(--muted)">caller</text>
+  <text x="1232" y="364" font-size="17" fill="var(--muted)">Next.js</text>
 
-  <!-- pipeline links -->
+  <!-- links -->
   <g stroke="var(--line-strong)" stroke-width="2.5" fill="none">
-    <path d="M1344 276 H1384"/>
-    <path d="M1480 276 H1536"/>
+    <path d="M1360 276 H1400"/>
+    <path d="M1496 276 H1536"/>
+    <path d="M1448 302 V392"/>
     <path d="M1680 276 C1720 276 1720 164 1760 164"/>
     <path d="M1680 276 H1760"/>
     <path d="M1680 276 C1720 276 1720 388 1760 388"/>
   </g>
-  <path d="M1608 304 V440 H1320 V330" fill="none" stroke="var(--accent)" stroke-width="3" stroke-dasharray="2 10" stroke-linecap="round"/>
 
   <g font-size="18">
-    <rect x="1384" y="250" width="96" height="52" rx="10" fill="var(--node)" stroke="var(--line-strong)" stroke-width="2"/>
-    <text x="1412" y="282" fill="var(--ink)">STT</text>
+    <rect x="1400" y="250" width="96" height="52" rx="10" fill="var(--node)" stroke="var(--line-strong)" stroke-width="2"/>
+    <text x="1426" y="282" fill="var(--ink)">API</text>
+    <rect x="1392" y="392" width="112" height="44" rx="10" fill="var(--node)" stroke="var(--line-strong)" stroke-width="2"/>
+    <text x="1408" y="420" fill="var(--muted)" font-size="16">Postgres</text>
 
     <rect x="1536" y="236" width="144" height="80" rx="14" fill="var(--ink)"/>
-    <text x="1562" y="270" fill="var(--paper)" font-size="20">agent</text>
+    <text x="1562" y="270" fill="var(--paper)" font-size="20">AI agent</text>
     <text x="1562" y="298" fill="var(--paper)" font-size="15" opacity="0.7">LLM + tools</text>
 
     <rect x="1760" y="138" width="176" height="52" rx="10" fill="var(--accent-soft)" stroke="var(--accent)" stroke-width="2"/>
     <text x="1780" y="170" fill="var(--accent)">RAG · cited</text>
     <rect x="1760" y="250" width="176" height="52" rx="10" fill="var(--node)" stroke="var(--line-strong)" stroke-width="2"/>
-    <text x="1780" y="282" fill="var(--ink)">book_appt()</text>
+    <text x="1780" y="282" fill="var(--ink)">CRM · HubSpot</text>
     <rect x="1760" y="362" width="176" height="52" rx="10" fill="var(--node)" stroke="var(--line-strong)" stroke-width="2"/>
-    <text x="1780" y="394" fill="var(--ink)">CRM · Stripe</text>
+    <text x="1780" y="394" fill="var(--ink)">Stripe · APIs</text>
   </g>
-  <rect x="1408" y="424" width="96" height="34" rx="8" fill="var(--paper)" stroke="var(--accent)" stroke-width="2"/>
-  <text x="1430" y="447" font-size="16" fill="var(--accent)">TTS</text>
-  <text x="1236" y="520" font-size="17" fill="var(--muted)">voice in → transcript → agent → tools → voice out</text>
+  <text x="1216" y="510" font-size="17" fill="var(--muted)">React UI → Node API → data → AI layer → integrations</text>
 </svg>
 
 <div class="text">
-  <div class="eyebrow">AI SaaS Developer · Lahore · Remote</div>
+  <div class="eyebrow">Full-Stack Developer · AI Solutions · Remote</div>
   <h1>Zubair Zulifqar</h1>
-  <div class="tag">I build AI SaaS products and MVPs end to end: voice AI agents, RAG chatbots with cited answers, and the Next.js and Python apps around them.</div>
+  <div class="tag">I take AI-native products from concept to production for founders and funded teams: React and Next.js front ends, Node.js back ends, and the AI layer on top.</div>
   <div class="chips">
-    <span class="chip hl">Voice AI agents</span><span class="chip hl">MVPs</span><span class="chip">Next.js</span><span class="chip">Python</span><span class="chip">RAG</span>
+    <span class="chip hl">React</span><span class="chip hl">Next.js</span><span class="chip hl">Node.js</span><span class="chip">AI agents</span><span class="chip">RAG</span><span class="chip">Automation</span>
   </div>
 </div>
 <script>if (location.hash === '#dark') document.body.classList.add('dark');</script>

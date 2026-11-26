@@ -3,7 +3,7 @@
   <img src=".github/assets/header-light.png" alt="Zubair Zulifqar, Full-Stack Developer for AI solutions. A Next.js app calls a Node API backed by Postgres, which hands off to an AI agent connected to RAG, a HubSpot CRM and Stripe." width="100%">
 </picture>
 
-## Full-Stack Developer &nbsp;|&nbsp; React, Next.js, Node.js + AI Solutions
+## AI Agent Developer &nbsp;|&nbsp; Senior Full-Stack Engineer &nbsp;|&nbsp; RAG, Python, Next.js
 
 I own the whole build, not a slice of it. Founders and funded teams bring me in to take AI-native products
 from concept to production: React and Next.js front ends, scalable Node.js back ends, and the AI layer on

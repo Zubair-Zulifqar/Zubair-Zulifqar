@@ -29,7 +29,7 @@ of a workflow engine that runs millions of executions a day.
 
 **Voice AI**
 
-- **DentalVoice AI** &nbsp;`Python` `FastAPI` `React` &nbsp;·&nbsp; *Qubit Labz team project, private repo*<br>
+- **[DentalVoice AI](https://github.com/Qubit-Labz/Dental-Receptionist-Voice-AI)** &nbsp;`Python` `FastAPI` `React` &nbsp;·&nbsp; *Qubit Labz team project*<br>
   A voice receptionist for a dental clinic. Faster-Whisper transcribes the caller, an LLM agent with tool calls resolves dates and books the appointment, and Kokoro answers in a natural voice. The React front end has a live waveform, sign-in and an appointments view. It can run entirely on self-hosted open models.
 - **[Waivs.ai](https://github.com/Zubair-Zulifqar/Waivs-AI)** &nbsp;`Next.js` `Supabase` `Vertex AI`<br>
   Voice to clinical notes for surgical teams. Browser recording with crash recovery, Google Speech-to-Text with speaker diarization, then a source-cited draft note from Gemini that a clinician must approve. Version history, word-level diffs and PDF export.

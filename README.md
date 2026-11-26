@@ -5,9 +5,10 @@
 
 ## AI Agent Developer &nbsp;|&nbsp; Senior Full-Stack Engineer &nbsp;|&nbsp; RAG, Python, Next.js
 
-I own the whole build, not a slice of it. Founders and funded teams bring me in to take AI-native products
-from concept to production: React and Next.js front ends, scalable Node.js back ends, and the AI layer on
-top (agents, RAG systems and automation workflows wired into real business logic, not demos).
+I build AI agents that work inside production software, and the software around them. I built the workflow
+automation engine behind an IT asset platform with 4M+ assets, and an in-product AI assistant that cut
+customer-success workload by about 80%. Lead Software Engineer at Pynwheel; before that, Senior Software
+Engineer on EZO and AssetSonar.
 
 <p>
   <a href="https://www.upwork.com/freelancers/~01894c735c70746190"><img alt="Hire me on Upwork" src="https://img.shields.io/badge/Hire_me_on-Upwork-14a800?style=for-the-badge&logo=upwork&logoColor=white"/></a>
